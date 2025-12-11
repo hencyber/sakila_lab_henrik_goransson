@@ -206,10 +206,9 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+#duckdb - Kommenterad så data-filer kan pushas
+#*.wal
+#*.duckdb
 
-#duckdb
-*.wal
-*.duckdb
-
-#sqlite
-*.db
+#sqlite - Kommenterad så data-filer kan pushas
+#*.db
